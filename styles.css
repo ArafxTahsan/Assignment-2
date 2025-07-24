@@ -1,0 +1,497 @@
+body{
+  background-color: rgba(245, 248, 255, 1);
+}
+.navbar{
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  align-items: center;
+}
+#nav-pic{
+  max-width: 135px;
+}
+
+.navbar li{
+  list-style: none;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+}
+
+.navbar li span a{
+  color: rgb(37, 36, 50);
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+}
+
+.nav-menu ul{
+  display: flex;
+  gap: 48px;
+  justify-content: space-between;
+}
+.banner-content h1{
+  color: black;
+  font-family: Noto Serif;
+font-size: 4rem;
+font-weight: 700;
+} 
+.banner-content h1 span{
+  color: rgb(233, 90, 8);
+font-family: Noto Serif;
+font-size: 4rem;
+font-weight: 700;
+}
+.banner-content p{
+  color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 1.30rem;
+font-weight: 400;
+}
+
+#banner-pic{
+  max-width: 560px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 1140px;
+}
+.middle-content{
+  max-width: 1140px;
+  margin: 50px auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.middle-content h2{
+  font-family: Noto Serif;
+font-size: 50px;
+font-weight: 700;
+color: black;
+}
+.middle-content h2 span{
+  color: rgb(233, 90, 8) ;
+}
+.middle-content p{
+  color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+}
+.card h4{
+  color: rgb(17, 17, 17);
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+}
+.card p{
+  color: rgb(17, 17, 17);
+font-family: Inter;
+font-size: 22px;
+font-weight: 700;
+}
+.card button{
+  width: 270px;
+height: 50px;
+  background: rgb(233, 90, 8);
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+border: none;
+}
+.card{
+
+text-align: center;
+margin: 20px;
+}
+.cards{
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 50px auto;
+ 
+}
+.lover-content h2{
+  color: rgb(0, 0, 0);
+font-family: Noto Serif;
+font-size: 3.25rem;
+font-weight: 700;
+
+}
+
+.lover-content ul li p {
+  color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.lover-pic{
+  position: relative;
+}
+
+#lover-pic{
+  max-width: 540px;
+  
+  
+}
+#badge{
+  width: 286px;
+height: 286px;
+ position: absolute;
+left: 370px;
+bottom: 400px;
+  
+}
+.lover-content{
+  max-width: 570px;
+}
+.lover{
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin: 100px auto;
+}
+.bunch h3{
+  color: rgb(255, 255, 255);
+font-family: Noto Serif;
+font-size: 3.25rem;
+font-weight: 700;
+}
+
+.input input{
+  width: 644px;
+height: 46px;
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+border: none;
+}
+.input button{
+  width: 186px;
+height: 50px;
+background: rgb(233, 90, 8);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+border: none;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bunch{
+  text-align: center;
+  max-width: 100%;
+  height: 533px;
+  background-image: url("./assets/news-letter-bg.png") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content p{
+  color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+}
+.home ul li a, .feature ul li a{
+  color: rgb(107, 114, 128);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+text-decoration: none;
+
+}
+.home ul li , .feature ul li{
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.icons{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  max-width: 1440px;
+  
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1120px;
+  gap: 6.87rem;
+  margin: 50px auto;
+}
+.img-1{
+  width: 366.22px;
+  height: 206px;
+  background: linear-gradient(rgba(0, 0 ,0 , 0.4) 100%), url("./assets/deal-bloom.png");
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.img-2{
+  width: 366.22px;
+  height: 206px;
+  background: linear-gradient(rgba(0, 0 ,0 , 0.4) 100%), url("./assets/deal-ana.png");
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+}
+.img-3{
+   width: 753px;
+  height: 423.13px;
+  background: linear-gradient(rgba(0, 0 ,0 , 0.4) 100%), url("./assets/deal-zabo.png");
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+}
+
+
+.img-1 h3,.img-2 h3, .img-3 h3{
+  color: rgb(255, 255, 255);
+font-family: Noto Serif;
+font-size: 24px;
+font-weight: 700;
+margin: 0;
+}
+.img-1 a, .img-2 a , .img-3 a{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+}
+.img-3 h3 {
+  font-size: 2.50rem;
+}
+.img-3 a{
+  font-size: 1.50rem;
+}
+.leatest-deals{
+  max-width: 1140px;
+  display: flex;
+  gap: 30px;
+  margin: 50px auto;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .nav-menu ul{
+    visibility: hidden;
+    gap: 0;
+  }
+  .nav-menu ul li .cart{
+    visibility: visible;
+    
+  }
+  .nav-menu ul li .cart i{
+    margin-right: 5px;
+  }
+
+  #nav-pic{
+    width: 100px;
+  }
+  #banner-pic, #lover-pic{
+    width: 100%;
+  }
+  
+
+  .banner-pic{
+    order: 1;
+  }
+  .banner, .lover, .leatest-deals{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content{
+    order: 2;
+    text-align: left;
+  }
+  .img-3{
+     width: 366.22px;
+  height: 206px;
+  }
+  .img-3 h3{
+     color: rgb(255, 255, 255);
+font-family: Noto Serif;
+font-size: 24px;
+font-weight: 700;
+margin: 0;
+  }
+
+.img-3 a{
+   color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+}
+
+  .banner-content h1, .banner-content h1 span{
+    font-size: 3rem;
+  }
+  .cards{
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .card img, .card button{
+    width: 180px;
+  }
+
+  .card{
+    margin: 10px;
+  }
+  #badge{
+    display: none;
+  }
+  .lover-pic{
+    max-height: 396px;
+  }
+  .input input{
+  width: 250px;
+}
+.input button {
+  width: 100px
+}
+.footer{
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  text-align: left;
+}
+  
+
+  
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+   .nav-menu ul{
+    visibility: hidden;
+    gap: 0;
+  }
+  .nav-menu ul li .cart{
+    visibility: visible;
+    
+  }
+  .nav-menu ul li .cart i{
+    margin-right: 5px;
+  }
+
+  #nav-pic{
+    width: 100px;
+  }
+  #banner-pic, #lover-pic{
+    width: 100%;
+  }
+.lover-content{
+  margin-top: 150px;
+}
+  
+
+  .banner-pic{
+    order: 1;
+  }
+  .banner, .lover, .leatest-deals{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content{
+    order: 2;
+    text-align: left;
+  }
+  .img-3{
+     width: 366.22px;
+  height: 206px;
+  }
+  .img-3 h3{
+     color: rgb(255, 255, 255);
+font-family: Noto Serif;
+font-size: 24px;
+font-weight: 700;
+margin: 0;
+  }
+
+.img-3 a{
+   color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+}
+
+  .banner-content h1, .banner-content h1 span{
+    font-size: 3rem;
+  }
+  .cards{
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .card img, .card button{
+    width: 180px;
+  }
+
+  .card{
+    margin: 10px;
+  }
+  #badge{
+    display: none;
+  }
+  .lover-pic{
+    max-height: 396px;
+  }
+  .input input{
+  width: 250px;
+}
+.input button {
+  width: 100px
+}
+.footer{
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  text-align: left;
+}
+}
